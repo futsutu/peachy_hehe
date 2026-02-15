@@ -1,0 +1,12 @@
+[project]
+name = "peachy-hehe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+[tool.hatch.build.targets.wheel]
+packages = ["games_project_yuzhakova"]
+
+[project.scripts]
+vd-games = "games_project_yuzhakova.VD_games.scripts.VD_main:main"
