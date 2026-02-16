@@ -1,0 +1,4 @@
+recursive-include games_project_yuzhakova *.py
+recursive-include games_project_yuzhakova *.typed
+graft games_project_yuzhakova
+global-exclude *.pyc __pycache__
