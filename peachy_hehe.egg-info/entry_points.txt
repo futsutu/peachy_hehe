@@ -1,0 +1,3 @@
+[console_scripts]
+vd-even = games_project_yuzhakova.VD_games.scripts.VD_even:main
+vd-games = games_project_yuzhakova.VD_games.scripts.VD_main:main

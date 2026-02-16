@@ -22,3 +22,6 @@ build:
 
 package-install:
 	uv tool install dist/*.whl
+
+lint:
+	uv run ruff check games_project_yuzhakova

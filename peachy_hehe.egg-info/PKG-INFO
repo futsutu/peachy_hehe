@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: peachy-hehe
+Version: 0.1.0
+Requires-Dist: prompt>=0.4.1
+Dynamic: requires-dist

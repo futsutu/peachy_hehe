@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "peachy-hehe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "prompt>=0.4.1",
+]
+
+[tool.hatch.build.targets.wheel]
+include = [
+    "games_project_yuzhakova/**"
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.1",
+]
+
+[project.scripts]
+vd-games = "games_project_yuzhakova.VD_games.scripts.VD_main:main"
+vd-even = "games_project_yuzhakova.VD_games.scripts.VD_even:main"
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "C", "N"]
+ignore = ["D203", "D211", "N999"]

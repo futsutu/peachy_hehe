@@ -1,0 +1,16 @@
+README.md
+setup.py
+games_project_yuzhakova/__init__.py
+games_project_yuzhakova/py.typed
+games_project_yuzhakova/VD_games/__init__.py
+games_project_yuzhakova/VD_games/cli.py
+games_project_yuzhakova/VD_games/scripts/VD_even.py
+games_project_yuzhakova/VD_games/scripts/VD_games.py
+games_project_yuzhakova/VD_games/scripts/VD_main.py
+games_project_yuzhakova/VD_games/scripts/__init__.py
+peachy_hehe.egg-info/PKG-INFO
+peachy_hehe.egg-info/SOURCES.txt
+peachy_hehe.egg-info/dependency_links.txt
+peachy_hehe.egg-info/entry_points.txt
+peachy_hehe.egg-info/requires.txt
+peachy_hehe.egg-info/top_level.txt
